@@ -6,11 +6,35 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-data
 x-kinRank: "8"
 x-alexaRank: "13593"
 tags: Downtime
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downtime/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
 apis:
+- name: DataDog Merged API - Add Downtime
+  x-api-slug: downtime-post
+  description: Schedule monitor downtime
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1/
+  tags: Monitoring, Performance, Orchestration, Aggregation, Stack Network, SaaS,
+    Technology, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downtime/master/_listings/datadog/downtime-post-openapi.md
+- name: DataDog Merged API - Put Downtime Downtime
+  x-api-slug: downtimedowntime-id-put
+  description: Update monitor downtime
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1/
+  tags: Monitoring, Performance, Orchestration, Aggregation, Stack Network, SaaS,
+    Technology, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downtime/master/_listings/datadog/downtimedowntime-id-put-openapi.md
 - name: DataDog Merged API - Delete Downtime Downtime
   x-api-slug: downtimedowntime-id-delete
   description: DELETE downtime downtime

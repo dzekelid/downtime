@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Datadog
-x-complete: 1
+x-complete: 0
 info:
-  title: DataDog Merged API
+  title: DataDog API Put Downtime Downtime
   version: 1.0.0
+  description: Update monitor downtime
 basePath: api/v1/
 schemes:
 - http
@@ -46,17 +48,6 @@ paths:
       tags:
       - Monitoring
       - Downtime
-    get:
-      summary: Get Downtime
-      description: Get all monitor downtimes
-      operationId: getDowntime
-      x-api-path-slug: downtime-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Monitoring
-      - Downtime
   /downtime/:downtime_id:
     put:
       summary: Put Downtime Downtime
@@ -92,27 +83,17 @@ paths:
       - Monitoring
       - Downtime
       - Downtime
-    delete:
-      summary: Delete Downtime Downtime
-      description: DELETE downtime downtime
-      operationId: deleteDowntimeDowntime
-      x-api-path-slug: downtimedowntime-id-delete
-      responses:
-        200:
-          description: OK
-      tags:
-      - Monitoring
-      - Downtime
-      - Downtime
-    get:
-      summary: Get Downtime Downtime
-      description: Get a monitor downtime
-      operationId: getDowntimeDowntime
-      x-api-path-slug: downtimedowntime-id-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Monitoring
-      - Downtime
-      - Downtime
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
